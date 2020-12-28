@@ -3,11 +3,11 @@ import React from 'react';
 import Header from './Component/Header/Header'
 import Content from './Component/Content/Content'
 
-function App() {
+let App = () => {
     return (
-        <div class="wrapper">
-            <Header />
-            <Content />
+        <div className="wrapper">
+            <Header/>
+            <Content/>
         </div>
     );
 }
